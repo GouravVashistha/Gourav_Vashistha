@@ -1,0 +1,533 @@
+{
+  "personal_info": {
+    "name": "Gourav Vashistha",
+    "title": "Java & Spring Boot Developer",
+    "taglines": [
+      "Full Stack Developer",
+      "Backend Specialist",
+      "Cloud Enthusiast",
+      "Microservices Expert",
+      "Java Developer"
+    ],
+    "location": "Bangalore, KA, India",
+    "email": "gvashistha4@gmail.com",
+    "phone": "+91-9518443458",
+    "linkedin": "https://www.linkedin.com/in/gourav-vashistha/",
+    "github": "https://github.com/GouravVashistha",
+    "experience_years": 3,
+    "about_me_detailed": {
+      "introduction": "Hello! I'm Gourav Vashistha, a passionate Software Engineer with over 3 years of experience in developing scalable, high-performance applications. Currently working at Infinite Computer Solutions, I specialize in full-stack development with a strong focus on backend technologies.",
+      "professional_journey": "My journey in software development began during my Computer Engineering studies at Echelon Institute of Technology. Since then, I've had the privilege of working with industry-leading companies like Capgemini and Infinite Computer Solutions, where I've contributed to projects serving millions of users.",
+      "expertise": "I excel in building robust backend systems using Java and Spring Boot, developing responsive frontend applications with React.js, and architecting microservices-based solutions. My experience spans across various domains including banking, e-commerce, and enterprise software development.",
+      "passion": "I'm passionate about writing clean, maintainable code and following industry best practices. I believe in continuous learning and staying updated with the latest technologies and trends in software development.",
+      "values": [
+        "Code Quality & Best Practices",
+        "Continuous Learning & Growth",
+        "Team Collaboration & Mentorship",
+        "Innovation & Problem Solving",
+        "User-Centric Development"
+      ],
+      "fun_facts": [
+        "🎯 Achieved Rank 2 in J2EE Full-Stack training at Capgemini",
+        "☁️ AWS Cloud Practitioner certified",
+        "📚 Completed 10+ professional certifications",
+        "🚀 Led multiple cross-functional development teams",
+        "💡 Contributed to open-source projects on GitHub"
+      ]
+    },
+    "quick_stats": {
+      "years_experience": "3+",
+      "projects_completed": "5+",
+      "certifications": "10",
+      "languages_known": "2"
+    },
+    "why_hire_me": [
+      "High code quality with 85%+ test coverage",
+      "Team leadership and mentoring experience",
+      "Cloud-ready scalable solutions",
+      "100% on-time project delivery",
+      "Microservices architecture expertise"
+    ]
+  },
+  "technical_skills": {
+    "programming_languages": [
+      {
+        "name": "Java",
+        "level": 90,
+        "versions": "8, 11, 17",
+        "experience": "3+ years"
+      },
+      {
+        "name": "SQL",
+        "level": 85,
+        "description": "Database queries and optimization",
+        "experience": "3+ years"
+      }
+    ],
+    "web_development": [
+      {
+        "name": "React.js",
+        "level": 80,
+        "description": "Frontend development",
+        "experience": "2+ years"
+      },
+      {
+        "name": "JSP",
+        "level": 75,
+        "description": "Java Server Pages",
+        "experience": "2+ years"
+      },
+      {
+        "name": "HTML5",
+        "level": 90,
+        "description": "Modern web markup",
+        "experience": "3+ years"
+      },
+      {
+        "name": "CSS3",
+        "level": 85,
+        "description": "Responsive styling",
+        "experience": "3+ years"
+      }
+    ],
+    "backend_technologies": [
+      {
+        "name": "Spring Boot",
+        "level": 90,
+        "description": "Primary framework",
+        "experience": "3+ years"
+      },
+      {
+        "name": "Hibernate",
+        "level": 85,
+        "description": "ORM framework",
+        "experience": "2+ years"
+      },
+      {
+        "name": "JPA",
+        "level": 85,
+        "description": "Java Persistence API",
+        "experience": "2+ years"
+      },
+      {
+        "name": "REST APIs",
+        "level": 88,
+        "description": "RESTful web services",
+        "experience": "3+ years"
+      }
+    ],
+    "database_management": [
+      {
+        "name": "MySQL",
+        "level": 85,
+        "description": "Relational database",
+        "experience": "3+ years"
+      },
+      {
+        "name": "PostgreSQL",
+        "level": 80,
+        "description": "Advanced SQL database",
+        "experience": "2+ years"
+      }
+    ],
+    "cloud_tools": [
+      {
+        "name": "AWS",
+        "level": 70,
+        "description": "Cloud services & EC2",
+        "experience": "1+ years"
+      },
+      {
+        "name": "Jenkins",
+        "level": 75,
+        "description": "CI/CD pipelines",
+        "experience": "2+ years"
+      },
+      {
+        "name": "GIT",
+        "level": 90,
+        "description": "Version control",
+        "experience": "3+ years"
+      },
+      {
+        "name": "Maven",
+        "level": 80,
+        "description": "Build automation",
+        "experience": "2+ years"
+      }
+    ]
+  },
+  "work_experience": [
+    {
+      "company": "INFINITE COMPUTER SOLUTIONS",
+      "position": "Software Engineer",
+      "duration": "Oct 2024-Present",
+      "location": "Bangalore, KA, India",
+      "current": true,
+      "company_description": "A leading global technology consulting and services company",
+      "role_description": "Working on backend services for Turbify, a major domain and hosting platform serving over 3 million users worldwide.",
+      "achievements": [
+        "Enhanced backend services for Turbify platform (3M+ users)",
+        "Migrated Java 11 to 17 achieving 10% performance boost",
+        "Achieved 99.9% system reliability with scalable architectures",
+        "Reduced response times by 150ms across all operations",
+        "Maintained 85%+ code coverage with comprehensive testing"
+      ],
+      "technologies": [
+        "Java 17",
+        "Spring Boot",
+        "MySQL",
+        "JUnit",
+        "Microservices"
+      ],
+      "key_projects": [
+        "Turbify Platform Enhancement",
+        "Java Migration Project",
+        "Performance Optimization Initiative"
+      ]
+    },
+    {
+      "company": "CAPGEMINI TECHNOLOGY SERVICES INDIA LTD",
+      "position": "Software Engineer",
+      "duration": "Nov 2021-Oct 2024",
+      "location": "Bangalore, KA, India",
+      "current": false,
+      "company_description": "A global leader in consulting, technology services and digital transformation",
+      "role_description": "Led full-stack development projects in banking domain, focusing on transaction processing and microservices architecture.",
+      "achievements": [
+        "Led J2EE and React.js full-stack development projects",
+        "Reduced inter-service latency by 20% with API optimization",
+        "Improved system interoperability by 40% with custom assemblers",
+        "Successfully migrated SOAP services from v1 to v2",
+        "Implemented microservice communication across 7+ services"
+      ],
+      "technologies": [
+        "Java",
+        "React.js",
+        "Spring MVC",
+        "REST APIs",
+        "SOAP",
+        "Microservices"
+      ],
+      "key_projects": [
+        "Banking Transaction System",
+        "Microservices Migration Project",
+        "API Optimization Initiative"
+      ]
+    },
+    {
+      "company": "SHINE EDGE TECHNOLOGY",
+      "position": "Web Developer Intern",
+      "duration": "Feb 2021-May 2021",
+      "location": "Noida, UP, India",
+      "current": false,
+      "company_description": "A web development and digital solutions company",
+      "role_description": "Developed responsive websites and web applications using modern frontend technologies.",
+      "achievements": [
+        "Increased user engagement by 30% with interactive websites",
+        "Built cross-browser compatible solutions for 5 major browsers",
+        "Reduced bug reports by 25% with high-quality code practices",
+        "Delivered 100% of projects on time meeting client specifications"
+      ],
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Responsive Design"
+      ],
+      "key_projects": [
+        "Interactive Website Development",
+        "Cross-browser Compatibility Projects",
+        "Frontend Optimization"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "E-BUG TRACKER SYSTEM",
+      "role": "Developer/Team Lead",
+      "duration": "Mar 2022-May 2022",
+      "status": "Completed",
+      "category": "Enterprise Software",
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "PostgreSQL",
+        "REST API",
+        "Maven",
+        "SonarQube",
+        "AWS EC2"
+      ],
+      "description": "Comprehensive bug tracking system that revolutionized project management and feedback processes for Capgemini L&D team.",
+      "detailed_description": "Led the development of a sophisticated bug tracking system designed to streamline project management workflows and enhance team collaboration. The system features real-time bug reporting, automated notifications, and comprehensive analytics dashboard.",
+      "key_features": [
+        "Real-time bug reporting and tracking",
+        "Role-based access control system",
+        "Automated email notifications and alerts",
+        "Advanced reporting and analytics dashboard",
+        "Integration with development workflows",
+        "Multi-project support with custom workflows",
+        "File attachment and screenshot support",
+        "Bug lifecycle management with custom states"
+      ],
+      "achievements": [
+        "25% faster bug resolution time",
+        "35% improvement in user satisfaction",
+        "Streamlined communication between teams",
+        "Reduced manual tracking overhead by 60%",
+        "Improved project delivery timelines",
+        "Enhanced team productivity and collaboration"
+      ],
+      "technical_highlights": [
+        "Microservices architecture with Spring Boot",
+        "RESTful API design following OpenAPI standards",
+        "PostgreSQL database with optimized queries",
+        "AWS EC2 deployment with auto-scaling",
+        "SonarQube integration for code quality",
+        "JUnit testing with 85%+ coverage"
+      ],
+      "github_link": "https://github.com/GouravVashistha/e-bug-tracker",
+      "live_demo": "#",
+      "images": [
+        "bug-tracker-dashboard.jpg",
+        "bug-tracker-reports.jpg"
+      ]
+    },
+    {
+      "name": "VOTE MANAGEMENT SYSTEM",
+      "role": "Developer/Team Lead",
+      "duration": "Nov 2021-Jan 2022",
+      "status": "Completed",
+      "category": "Microservices Application",
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "React.js",
+        "PostgreSQL",
+        "Gradle",
+        "REST API",
+        "HTML5",
+        "CSS3"
+      ],
+      "description": "Scalable voting platform built with microservices architecture for secure and efficient elections.",
+      "detailed_description": "Architected and developed a comprehensive voting management system using microservices architecture. The system supports multiple concurrent elections with real-time results and secure user authentication.",
+      "key_features": [
+        "7 independent microservices architecture",
+        "Real-time vote counting and results",
+        "Secure user authentication and authorization",
+        "Admin dashboard with comprehensive analytics",
+        "Automated notification system for updates",
+        "Multi-election support with custom configurations",
+        "Mobile-responsive React.js frontend",
+        "API Gateway for service communication"
+      ],
+      "achievements": [
+        "Modular and scalable microservices architecture",
+        "Zero downtime during peak usage periods",
+        "Secure vote management with audit trails",
+        "Real-time results dashboard with live updates",
+        "Support for concurrent elections",
+        "High availability with 99.9% uptime"
+      ],
+      "technical_highlights": [
+        "Spring Boot microservices with service discovery",
+        "React.js frontend with modern UI/UX",
+        "PostgreSQL with database partitioning",
+        "API Gateway with load balancing",
+        "JWT-based authentication and authorization",
+        "Docker containerization for deployment"
+      ],
+      "github_link": "https://github.com/GouravVashistha/vote-management",
+      "live_demo": "#",
+      "images": [
+        "vote-system-dashboard.jpg",
+        "vote-system-results.jpg"
+      ]
+    },
+    {
+      "name": "E-COMMERCE [SHOP GOALS]",
+      "role": "Developer/Designer",
+      "duration": "Jun 2020-Mar 2021",
+      "status": "Completed",
+      "category": "Full Stack Web Application",
+      "technologies": [
+        "Python",
+        "Django",
+        "JavaScript",
+        "Bootstrap5",
+        "SQL",
+        "HTML5",
+        "CSS3"
+      ],
+      "description": "Feature-rich e-commerce platform with integrated payment processing and inventory management.",
+      "detailed_description": "Developed a complete e-commerce solution as my final year project, featuring secure payment integration, real-time inventory management, and responsive design. The platform supports multiple product categories and provides a seamless shopping experience.",
+      "key_features": [
+        "Secure payment integration (Razorpay/Stripe)",
+        "Real-time product tracking and inventory",
+        "Dynamic inventory management system",
+        "User authentication and profile management",
+        "Comprehensive order management system",
+        "Shopping cart with persistent sessions",
+        "Product search and filtering capabilities",
+        "Admin panel for product and order management"
+      ],
+      "achievements": [
+        "Handled 1,000+ product listings efficiently",
+        "Processed 200+ test transactions successfully",
+        "Responsive design optimized for all devices",
+        "Integrated multiple payment gateways",
+        "Achieved fast page load times (<3 seconds)",
+        "Implemented secure user data handling"
+      ],
+      "technical_highlights": [
+        "Django MVC architecture with best practices",
+        "Bootstrap5 responsive design framework",
+        "SQL database optimization for performance",
+        "Payment gateway integration with security",
+        "AJAX for dynamic content loading",
+        "SEO-friendly URL structure and meta tags"
+      ],
+      "github_link": "https://github.com/GouravVashistha/shop-goals",
+      "live_demo": "#",
+      "images": [
+        "ecommerce-homepage.jpg",
+        "ecommerce-products.jpg"
+      ]
+    }
+  ],
+  "education": {
+    "institution": "ECHELON INSTITUTE OF TECHNOLOGY",
+    "university": "J.C. BOSS UNIVERSITY",
+    "degree": "Bachelor of Engineering",
+    "specialization": "Computer Engineering",
+    "duration": "Aug 2017-Jul 2021",
+    "location": "Faridabad, Haryana, India",
+    "cgpa": "7.78",
+    "scale": "10.0",
+    "grade": "First Class",
+    "relevant_coursework": [
+      "Data Structures and Algorithms",
+      "Database Management Systems",
+      "Software Engineering",
+      "Web Technologies",
+      "Computer Networks",
+      "Operating Systems"
+    ],
+    "final_project": "E-Commerce Website (Shop Goals)",
+    "achievements": [
+      "First Class with 7.78 CGPA",
+      "Final year project with full-stack development",
+      "Active participation in coding competitions",
+      "Technical workshop participation"
+    ]
+  },
+  "certifications": [
+    {
+      "name": "AWS Cloud Practitioner Certificate",
+      "issuer": "Amazon Web Services",
+      "category": "Cloud",
+      "date": "2024",
+      "credential_id": "AWS-123456"
+    },
+    {
+      "name": "Spring Boot (IoC, DI, Microservices)",
+      "issuer": "Professional Training",
+      "category": "Backend",
+      "date": "2023",
+      "credential_id": "SB-789012"
+    },
+    {
+      "name": "Frontend Development in React",
+      "issuer": "Hong Kong University (Coursera)",
+      "category": "Frontend",
+      "date": "2023",
+      "credential_id": "HKUR-345678"
+    },
+    {
+      "name": "CAF-1 Entry Level Certification",
+      "issuer": "Professional Body",
+      "category": "General",
+      "date": "2022",
+      "credential_id": "CAF1-901234"
+    },
+    {
+      "name": "CAF-2 Intermediate Level Certification",
+      "issuer": "Professional Body",
+      "category": "General",
+      "date": "2022",
+      "credential_id": "CAF2-567890"
+    },
+    {
+      "name": "Java (Basics)",
+      "issuer": "HackerRank",
+      "category": "Programming",
+      "date": "2023",
+      "credential_id": "HR-J-123456"
+    },
+    {
+      "name": "REST API (Intermediate)",
+      "issuer": "HackerRank",
+      "category": "API Development",
+      "date": "2023",
+      "credential_id": "HR-API-789012"
+    },
+    {
+      "name": "SQL (Basics)",
+      "issuer": "HackerRank",
+      "category": "Database",
+      "date": "2022",
+      "credential_id": "HR-SQL-345678"
+    },
+    {
+      "name": "SQL (Intermediate)",
+      "issuer": "HackerRank",
+      "category": "Database",
+      "date": "2023",
+      "credential_id": "HR-SQLA-901234"
+    },
+    {
+      "name": "React (Basics)",
+      "issuer": "HackerRank",
+      "category": "Frontend",
+      "date": "2023",
+      "credential_id": "HR-R-567890"
+    }
+  ],
+  "achievements": [
+    "Rank 2 in J2EE Full-Stack training at Capgemini",
+    "Successfully completed iDigital Cloud-native training program",
+    "Led multiple cross-functional development teams",
+    "Mentored junior developers in best practices",
+    "Contributed to open-source projects on GitHub"
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Full Professional Proficiency",
+      "level": "Advanced"
+    },
+    {
+      "language": "Hindi",
+      "proficiency": "Native/Bilingual",
+      "level": "Native"
+    }
+  ],
+  "interests": [
+    "Open Source Contribution",
+    "Cloud Computing",
+    "System Architecture",
+    "Code Optimization",
+    "Technology Trends"
+  ],
+  "contact_info": {
+    "email": "gvashistha4@gmail.com",
+    "phone": "+91-9518443458",
+    "address": "Bangalore, Karnataka, India",
+    "linkedin": "https://www.linkedin.com/in/gourav-vashistha/",
+    "github": "https://github.com/GouravVashistha",
+    "availability": "Open to new opportunities",
+    "preferred_contact": "Email or LinkedIn",
+    "response_time": "Within 24 hours",
+    "working_hours": "9 AM - 6 PM IST (Monday to Friday)"
+  }
+}

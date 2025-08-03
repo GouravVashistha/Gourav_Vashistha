@@ -1,0 +1,1390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourav Vashistha - Java & Spring Boot Developer</title>
+    <meta name="description" content="Professional portfolio of Gourav Vashistha - Experienced Software Developer specializing in Java, Spring Boot, and Full-Stack Development">
+    <meta name="keywords" content="Java Developer, Spring Boot, Full Stack Developer, Software Engineer, React.js">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader-container" id="loader">
+        <div class="loader">
+            <div class="loader-logo">
+                <span class="loader-text">Gourav</span>
+                <span class="loader-accent">Vashistha</span>
+            </div>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+            <p class="loader-subtitle">Loading Portfolio...</p>
+        </div>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Header Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav-logo" data-page="home">
+                <span class="logo-text">Gourav</span>
+                <span class="logo-accent">Vashistha</span>
+            </a>
+            
+            <div class="nav-menu" id="navMenu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active" data-page="home">
+                            <i class="fas fa-home"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link" data-page="about">
+                            <i class="fas fa-user"></i>
+                            <span>About</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link" data-page="experience">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Experience</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link" data-page="projects">
+                            <i class="fas fa-folder-open"></i>
+                            <span>Projects</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link" data-page="contact">
+                            <i class="fas fa-envelope"></i>
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="nav-close" id="navClose">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" title="Toggle Theme">
+                    <i class="fas fa-moon" id="themeIcon"></i>
+                </button>
+                <div class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Home Page -->
+        <section class="page active" id="home">
+            <!-- Hero Section -->
+            <div class="hero">
+                <div class="hero-bg">
+                    <div class="hero-shape shape-1"></div>
+                    <div class="hero-shape shape-2"></div>
+                    <div class="hero-shape shape-3"></div>
+                </div>
+                <div class="container">
+                    <div class="hero-content">
+                        <div class="hero-text">
+                            <p class="hero-greeting animate-fade-in">Hello, I'm</p>
+                            <h1 class="hero-name animate-fade-in-up">
+                                <span class="name-text">Gourav Vashistha</span>
+                            </h1>
+                            <div class="hero-tagline animate-fade-in-up">
+                                <span class="typing-text" id="typingText"></span>
+                                <span class="cursor-blink">|</span>
+                            </div>
+                            <p class="hero-subtitle animate-fade-in-up">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Bangalore, KA, India
+                            </p>
+                            <p class="hero-description animate-fade-in-up">
+                                I'm a results-oriented Software Engineer with 3+ years of hands-on experience in full-stack development, 
+                                currently working at Infinite Computer Solutions. I specialize in building scalable backend systems using 
+                                Java, Spring Boot, and microservices architecture. Passionate about creating efficient solutions and 
+                                delivering high-quality code.
+                            </p>
+                            <div class="hero-buttons animate-fade-in-up">
+                                <a href="#" class="btn btn--primary btn--hero" id="downloadResume">
+                                    <i class="fas fa-download"></i>
+                                    <span>Download Resume</span>
+                                </a>
+                                <a href="#projects" class="btn btn--outline btn--hero" data-page="projects">
+                                    <i class="fas fa-eye"></i>
+                                    <span>View Projects</span>
+                                </a>
+                                <a href="#contact" class="btn btn--secondary btn--hero" data-page="contact">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>Contact Me</span>
+                                </a>
+                            </div>
+                            <div class="hero-social animate-fade-in-up">
+                                <a href="https://www.linkedin.com/in/gourav-vashistha/" target="_blank" class="social-icon">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://github.com/GouravVashistha" target="_blank" class="social-icon">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="mailto:gvashistha4@gmail.com" class="social-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="hero-image animate-fade-in-right">
+                            <div class="hero-image-wrapper">
+                                
+                                <img src="Media.jpg" alt="Gourav Vashistha" class="hero-img" />
+
+                                <div class="hero-image-bg"></div>
+                                <div class="hero-image-float float-1"></div>
+                                <div class="hero-image-float float-2"></div>
+                                <div class="hero-image-float float-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll-indicator">
+                    <div class="scroll-text">Scroll Down</div>
+                    <div class="scroll-arrow">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Stats Section -->
+            <section class="stats-section">
+                <div class="container">
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-calendar-alt"></i>
+                            </div>
+                            <div class="stat-number" data-target="3">0</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <div class="stat-number" data-target="5">0</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="stat-number" data-target="10">0</div>
+                            <div class="stat-label">Certifications</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-language"></i>
+                            </div>
+                            <div class="stat-number" data-target="2">0</div>
+                            <div class="stat-label">Languages Known</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </section>
+
+        <!-- About Page -->
+        <section class="page" id="about">
+            <div class="page-container">
+                <div class="page-header">
+                    <h1 class="page-title">About Me</h1>
+                    <p class="page-subtitle">Get to know more about my background, skills, and passion for technology</p>
+                </div>
+                
+                <div class="about-content">
+                    <!-- Professional Introduction -->
+                    <div class="about-intro">
+                        <div class="intro-text">
+                            <h2>Professional Journey</h2>
+                            <p class="intro-description">
+                                Hello! I'm Gourav Vashistha, a passionate Software Engineer with over 3 years of experience in developing scalable, high-performance applications. Currently working at Infinite Computer Solutions, I specialize in full-stack development with a strong focus on backend technologies.
+                            </p>
+                            <p>
+                                My journey in software development began during my Computer Engineering studies at Echelon Institute of Technology. Since then, I've had the privilege of working with industry-leading companies like Capgemini and Infinite Computer Solutions, where I've contributed to projects serving millions of users.
+                            </p>
+                            <p>
+                                I excel in building robust backend systems using Java and Spring Boot, developing responsive frontend applications with React.js, and architecting microservices-based solutions. My experience spans across various domains including banking, e-commerce, and enterprise software development.
+                            </p>
+                        </div>
+                        <div class="intro-highlights">
+                            <div class="highlight-card">
+                                <i class="fas fa-code"></i>
+                                <h4>Code Quality</h4>
+                                <p>85%+ test coverage with comprehensive testing</p>
+                            </div>
+                            <div class="highlight-card">
+                                <i class="fas fa-users"></i>
+                                <h4>Team Leadership</h4>
+                                <p>Leading cross-functional development teams</p>
+                            </div>
+                            <div class="highlight-card">
+                                <i class="fas fa-cloud"></i>
+                                <h4>Cloud Solutions</h4>
+                                <p>AWS certified cloud practitioner</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skills Section -->
+                    <div class="skills-section">
+                        <h2>Technical Skills</h2>
+                        <div class="skills-grid">
+                            <div class="skill-category">
+                                <h3><i class="fas fa-laptop-code"></i> Programming Languages</h3>
+                                <div class="skill-items">
+                                    <div class="skill-item">
+                                        <div class="skill-info">
+                                            <span class="skill-name">Java</span>
+                                            <span class="skill-level">90%</span>
+                                        </div>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-width="90"></div>
+                                        </div>
+                                        <span class="skill-experience">3+ years experience</span>
+                                    </div>
+                                    <div class="skill-item">
+                                        <div class="skill-info">
+                                            <span class="skill-name">SQL</span>
+                                            <span class="skill-level">85%</span>
+                                        </div>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-width="85"></div>
+                                        </div>
+                                        <span class="skill-experience">3+ years experience</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skill-category">
+                                <h3><i class="fas fa-globe"></i> Web Development</h3>
+                                <div class="skill-items">
+                                    <div class="skill-item">
+                                        <div class="skill-info">
+                                            <span class="skill-name">React.js</span>
+                                            <span class="skill-level">80%</span>
+                                        </div>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-width="80"></div>
+                                        </div>
+                                        <span class="skill-experience">2+ years experience</span>
+                                    </div>
+                                    <div class="skill-item">
+                                        <div class="skill-info">
+                                            <span class="skill-name">HTML5/CSS3</span>
+                                            <span class="skill-level">90%</span>
+                                        </div>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-width="90"></div>
+                                        </div>
+                                        <span class="skill-experience">3+ years experience</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skill-category">
+                                <h3><i class="fas fa-server"></i> Backend Technologies</h3>
+                                <div class="skill-items">
+                                    <div class="skill-item">
+                                        <div class="skill-info">
+                                            <span class="skill-name">Spring Boot</span>
+                                            <span class="skill-level">90%</span>
+                                        </div>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-width="90"></div>
+                                        </div>
+                                        <span class="skill-experience">3+ years experience</span>
+                                    </div>
+                                    <div class="skill-item">
+                                        <div class="skill-info">
+                                            <span class="skill-name">REST APIs</span>
+                                            <span class="skill-level">88%</span>
+                                        </div>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-width="88"></div>
+                                        </div>
+                                        <span class="skill-experience">3+ years experience</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skill-category">
+                                <h3><i class="fas fa-cloud"></i> Cloud & Tools</h3>
+                                <div class="skill-items">
+                                    <div class="skill-item">
+                                        <div class="skill-info">
+                                            <span class="skill-name">AWS</span>
+                                            <span class="skill-level">70%</span>
+                                        </div>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-width="70"></div>
+                                        </div>
+                                        <span class="skill-experience">1+ years experience</span>
+                                    </div>
+                                    <div class="skill-item">
+                                        <div class="skill-info">
+                                            <span class="skill-name">Git</span>
+                                            <span class="skill-level">90%</span>
+                                        </div>
+                                        <div class="skill-bar">
+                                            <div class="skill-progress" data-width="90"></div>
+                                        </div>
+                                        <span class="skill-experience">3+ years experience</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education Section -->
+                    <div class="education-section">
+                        <h2>Education</h2>
+                        <div class="education-card">
+                            <div class="education-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="education-details">
+                                <h3>Bachelor of Engineering - Computer Engineering</h3>
+                                <h4>Echelon Institute of Technology</h4>
+                                <p class="education-university">J.C. BOSS University</p>
+                                <div class="education-info">
+                                    <span class="education-duration">Aug 2017 - Jul 2021</span>
+                                    <span class="education-grade">CGPA: 7.78/10.0 (First Class)</span>
+                                </div>
+                                <div class="education-coursework">
+                                    <h5>Relevant Coursework:</h5>
+                                    <div class="coursework-tags">
+                                        <span class="coursework-tag">Data Structures & Algorithms</span>
+                                        <span class="coursework-tag">Database Management Systems</span>
+                                        <span class="coursework-tag">Software Engineering</span>
+                                        <span class="coursework-tag">Web Technologies</span>
+                                        <span class="coursework-tag">Computer Networks</span>
+                                        <span class="coursework-tag">Operating Systems</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certifications Section -->
+                    <div class="certifications-section">
+                        <h2>Certifications</h2>
+                        <div class="certifications-grid">
+                            <div class="cert-card">
+                                <div class="cert-icon">
+                                    <i class="fab fa-aws"></i>
+                                </div>
+                                <h4>AWS Cloud Practitioner</h4>
+                                <p>Amazon Web Services</p>
+                                <span class="cert-date">2024</span>
+                            </div>
+                            <div class="cert-card">
+                                <div class="cert-icon">
+                                    <i class="fas fa-leaf"></i>
+                                </div>
+                                <h4>Spring Boot Certification</h4>
+                                <p>IoC, DI, Microservices</p>
+                                <span class="cert-date">2023</span>
+                            </div>
+                            <div class="cert-card">
+                                <div class="cert-icon">
+                                    <i class="fab fa-react"></i>
+                                </div>
+                                <h4>React.js Development</h4>
+                                <p>Hong Kong University (Coursera)</p>
+                                <span class="cert-date">2023</span>
+                            </div>
+                            <div class="cert-card">
+                                <div class="cert-icon">
+                                    <i class="fab fa-java"></i>
+                                </div>
+                                <h4>Java Certification</h4>
+                                <p>HackerRank</p>
+                                <span class="cert-date">2023</span>
+                            </div>
+                            <div class="cert-card">
+                                <div class="cert-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <h4>SQL Intermediate</h4>
+                                <p>HackerRank</p>
+                                <span class="cert-date">2023</span>
+                            </div>
+                            <div class="cert-card">
+                                <div class="cert-icon">
+                                    <i class="fas fa-api"></i>
+                                </div>
+                                <h4>REST API</h4>
+                                <p>HackerRank</p>
+                                <span class="cert-date">2023</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Values & Interests -->
+                    <div class="values-interests">
+                        <div class="values-section">
+                            <h2>Professional Values</h2>
+                            <div class="values-list">
+                                <div class="value-item">
+                                    <i class="fas fa-code-branch"></i>
+                                    <span>Code Quality & Best Practices</span>
+                                </div>
+                                <div class="value-item">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span>Continuous Learning & Growth</span>
+                                </div>
+                                <div class="value-item">
+                                    <i class="fas fa-users"></i>
+                                    <span>Team Collaboration & Mentorship</span>
+                                </div>
+                                <div class="value-item">
+                                    <i class="fas fa-lightbulb"></i>
+                                    <span>Innovation & Problem Solving</span>
+                                </div>
+                                <div class="value-item">
+                                    <i class="fas fa-heart"></i>
+                                    <span>User-Centric Development</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="interests-section">
+                            <h2>Interests & Hobbies</h2>
+                            <div class="interests-list">
+                                <div class="interest-item">
+                                    <i class="fab fa-github"></i>
+                                    <span>Open Source Contribution</span>
+                                </div>
+                                <div class="interest-item">
+                                    <i class="fas fa-cloud"></i>
+                                    <span>Cloud Computing</span>
+                                </div>
+                                <div class="interest-item">
+                                    <i class="fas fa-sitemap"></i>
+                                    <span>System Architecture</span>
+                                </div>
+                                <div class="interest-item">
+                                    <i class="fas fa-tachometer-alt"></i>
+                                    <span>Code Optimization</span>
+                                </div>
+                                <div class="interest-item">
+                                    <i class="fas fa-rocket"></i>
+                                    <span>Technology Trends</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Fun Facts -->
+                    <div class="fun-facts-section">
+                        <h2>Fun Facts About Me</h2>
+                        <div class="fun-facts-grid">
+                            <div class="fun-fact">
+                                <span class="fact-emoji">🎯</span>
+                                <p>Achieved Rank 2 in J2EE Full-Stack training at Capgemini</p>
+                            </div>
+                            <div class="fun-fact">
+                                <span class="fact-emoji">☁️</span>
+                                <p>AWS Cloud Practitioner certified</p>
+                            </div>
+                            <div class="fun-fact">
+                                <span class="fact-emoji">📚</span>
+                                <p>Completed 10+ professional certifications</p>
+                            </div>
+                            <div class="fun-fact">
+                                <span class="fact-emoji">🚀</span>
+                                <p>Led multiple cross-functional development teams</p>
+                            </div>
+                            <div class="fun-fact">
+                                <span class="fact-emoji">💡</span>
+                                <p>Contributed to open-source projects on GitHub</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Call to Action -->
+                    <div class="about-cta">
+                        <h2>Let's Work Together</h2>
+                        <p>I'm passionate about creating innovative solutions and would love to discuss how we can collaborate on your next project.</p>
+                        <div class="cta-buttons">
+                            <a href="#contact" class="btn btn--primary" data-page="contact">
+                                <i class="fas fa-envelope"></i>
+                                <span>Get In Touch</span>
+                            </a>
+                            <a href="#projects" class="btn btn--outline" data-page="projects">
+                                <i class="fas fa-folder-open"></i>
+                                <span>View My Work</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Page -->
+        <section class="page" id="experience">
+            <div class="page-container">
+                <div class="page-header">
+                    <h1 class="page-title">Experience</h1>
+                    <p class="page-subtitle">My professional journey and key achievements</p>
+                </div>
+                
+                <div class="experience-content">
+                    <!-- Timeline -->
+                    <div class="timeline">
+                        <!-- Current Position -->
+                        <div class="timeline-item current" data-aos="fade-up">
+                            <div class="timeline-marker">
+                                <div class="timeline-icon">
+                                    <i class="fas fa-briefcase"></i>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <div class="company-header">
+                                    <div class="company-info">
+                                        <h3>Software Engineer</h3>
+                                        <h4>Infinite Computer Solutions</h4>
+                                        <p class="company-description">A leading global technology consulting and services company</p>
+                                        <div class="position-meta">
+                                            <span class="duration"><i class="fas fa-calendar"></i> Oct 2024 - Present</span>
+                                            <span class="location"><i class="fas fa-map-marker-alt"></i> Bangalore, KA, India</span>
+                                            <span class="status current-badge"><i class="fas fa-circle"></i> Current</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="role-description">
+                                    <p>Working on backend services for Turbify, a major domain and hosting platform serving over 3 million users worldwide.</p>
+                                    
+                                    <div class="achievements">
+                                        <h5><i class="fas fa-trophy"></i> Key Achievements</h5>
+                                        <ul>
+                                            <li>Enhanced backend services for Turbify platform (3M+ users)</li>
+                                            <li>Migrated Java 11 to 17 achieving 10% performance boost</li>
+                                            <li>Achieved 99.9% system reliability with scalable architectures</li>
+                                            <li>Reduced response times by 150ms across all operations</li>
+                                            <li>Maintained 85%+ code coverage with comprehensive testing</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="technologies">
+                                        <h5><i class="fas fa-tools"></i> Technologies Used</h5>
+                                        <div class="tech-tags">
+                                            <span class="tech-tag">Java 17</span>
+                                            <span class="tech-tag">Spring Boot</span>
+                                            <span class="tech-tag">MySQL</span>
+                                            <span class="tech-tag">JUnit</span>
+                                            <span class="tech-tag">Microservices</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="key-projects">
+                                        <h5><i class="fas fa-project-diagram"></i> Key Projects</h5>
+                                        <ul>
+                                            <li>Turbify Platform Enhancement</li>
+                                            <li>Java Migration Project</li>
+                                            <li>Performance Optimization Initiative</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Previous Position -->
+                        <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="timeline-marker">
+                                <div class="timeline-icon">
+                                    <i class="fas fa-laptop-code"></i>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <div class="company-header">
+                                    <div class="company-info">
+                                        <h3>Software Engineer</h3>
+                                        <h4>Capgemini Technology Services India Ltd</h4>
+                                        <p class="company-description">A global leader in consulting, technology services and digital transformation</p>
+                                        <div class="position-meta">
+                                            <span class="duration"><i class="fas fa-calendar"></i> Nov 2021 - Oct 2024</span>
+                                            <span class="location"><i class="fas fa-map-marker-alt"></i> Bangalore, KA, India</span>
+                                            <span class="duration-length">3 years</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="role-description">
+                                    <p>Led full-stack development projects in banking domain, focusing on transaction processing and microservices architecture.</p>
+                                    
+                                    <div class="achievements">
+                                        <h5><i class="fas fa-trophy"></i> Key Achievements</h5>
+                                        <ul>
+                                            <li>Led J2EE and React.js full-stack development projects</li>
+                                            <li>Reduced inter-service latency by 20% with API optimization</li>
+                                            <li>Improved system interoperability by 40% with custom assemblers</li>
+                                            <li>Successfully migrated SOAP services from v1 to v2</li>
+                                            <li>Implemented microservice communication across 7+ services</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="technologies">
+                                        <h5><i class="fas fa-tools"></i> Technologies Used</h5>
+                                        <div class="tech-tags">
+                                            <span class="tech-tag">Java</span>
+                                            <span class="tech-tag">React.js</span>
+                                            <span class="tech-tag">Spring MVC</span>
+                                            <span class="tech-tag">REST APIs</span>
+                                            <span class="tech-tag">SOAP</span>
+                                            <span class="tech-tag">Microservices</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="key-projects">
+                                        <h5><i class="fas fa-project-diagram"></i> Key Projects</h5>
+                                        <ul>
+                                            <li>Banking Transaction System</li>
+                                            <li>Microservices Migration Project</li>
+                                            <li>API Optimization Initiative</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Internship -->
+                        <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+                            <div class="timeline-marker">
+                                <div class="timeline-icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                </div>
+                            </div>
+                            <div class="timeline-content">
+                                <div class="company-header">
+                                    <div class="company-info">
+                                        <h3>Web Developer Intern</h3>
+                                        <h4>Shine Edge Technology</h4>
+                                        <p class="company-description">A web development and digital solutions company</p>
+                                        <div class="position-meta">
+                                            <span class="duration"><i class="fas fa-calendar"></i> Feb 2021 - May 2021</span>
+                                            <span class="location"><i class="fas fa-map-marker-alt"></i> Noida, UP, India</span>
+                                            <span class="duration-length">4 months</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="role-description">
+                                    <p>Developed responsive websites and web applications using modern frontend technologies.</p>
+                                    
+                                    <div class="achievements">
+                                        <h5><i class="fas fa-trophy"></i> Key Achievements</h5>
+                                        <ul>
+                                            <li>Increased user engagement by 30% with interactive websites</li>
+                                            <li>Built cross-browser compatible solutions for 5 major browsers</li>
+                                            <li>Reduced bug reports by 25% with high-quality code practices</li>
+                                            <li>Delivered 100% of projects on time meeting client specifications</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="technologies">
+                                        <h5><i class="fas fa-tools"></i> Technologies Used</h5>
+                                        <div class="tech-tags">
+                                            <span class="tech-tag">HTML</span>
+                                            <span class="tech-tag">CSS</span>
+                                            <span class="tech-tag">JavaScript</span>
+                                            <span class="tech-tag">Responsive Design</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="key-projects">
+                                        <h5><i class="fas fa-project-diagram"></i> Key Projects</h5>
+                                        <ul>
+                                            <li>Interactive Website Development</li>
+                                            <li>Cross-browser Compatibility Projects</li>
+                                            <li>Frontend Optimization</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skills Gained Section -->
+                    <div class="skills-gained-section">
+                        <h2>Skills Gained Through Experience</h2>
+                        <div class="skills-gained-grid">
+                            <div class="skill-gained-category">
+                                <h3>Technical Skills</h3>
+                                <div class="skill-gained-list">
+                                    <span class="skill-gained-item">Java & Spring Boot Mastery</span>
+                                    <span class="skill-gained-item">Microservices Architecture</span>
+                                    <span class="skill-gained-item">React.js Development</span>
+                                    <span class="skill-gained-item">Database Optimization</span>
+                                    <span class="skill-gained-item">API Design & Development</span>
+                                    <span class="skill-gained-item">Cloud Technologies (AWS)</span>
+                                </div>
+                            </div>
+                            <div class="skill-gained-category">
+                                <h3>Soft Skills</h3>
+                                <div class="skill-gained-list">
+                                    <span class="skill-gained-item">Team Leadership</span>
+                                    <span class="skill-gained-item">Project Management</span>
+                                    <span class="skill-gained-item">Client Communication</span>
+                                    <span class="skill-gained-item">Problem Solving</span>
+                                    <span class="skill-gained-item">Mentoring & Training</span>
+                                    <span class="skill-gained-item">Agile Methodologies</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Career Progression -->
+                    <div class="career-progression">
+                        <h2>Career Progression</h2>
+                        <div class="progression-chart">
+                            <div class="progression-item">
+                                <div class="progression-level">Intern</div>
+                                <div class="progression-bar">
+                                    <div class="progression-fill" style="width: 25%"></div>
+                                </div>
+                                <div class="progression-label">Web Development Basics</div>
+                            </div>
+                            <div class="progression-item">
+                                <div class="progression-level">Junior Developer</div>
+                                <div class="progression-bar">
+                                    <div class="progression-fill" style="width: 60%"></div>
+                                </div>
+                                <div class="progression-label">Full-Stack Development</div>
+                            </div>
+                            <div class="progression-item">
+                                <div class="progression-level">Software Engineer</div>
+                                <div class="progression-bar">
+                                    <div class="progression-fill" style="width: 85%"></div>
+                                </div>
+                                <div class="progression-label">Microservices & Leadership</div>
+                            </div>
+                            <div class="progression-item">
+                                <div class="progression-level">Senior Engineer</div>
+                                <div class="progression-bar">
+                                    <div class="progression-fill" style="width: 100%"></div>
+                                </div>
+                                <div class="progression-label">Architecture & Optimization</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Page -->
+        <section class="page" id="projects">
+            <div class="page-container">
+                <div class="page-header">
+                    <h1 class="page-title">Projects</h1>
+                    <p class="page-subtitle">Detailed showcase of my technical work and innovations</p>
+                </div>
+                
+                <div class="projects-content">
+                    <!-- Filter Section -->
+                    <div class="projects-filter">
+                        <button class="filter-btn active" data-filter="all">All Projects</button>
+                        <button class="filter-btn" data-filter="enterprise">Enterprise Software</button>
+                        <button class="filter-btn" data-filter="microservices">Microservices</button>
+                        <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+                    </div>
+
+                    <!-- Projects Grid -->
+                    <div class="projects-grid">
+                        <!-- Project 1: E-Bug Tracker -->
+                        <div class="project-card" data-category="enterprise" data-aos="fade-up">
+                            <div class="project-header">
+                                <div class="project-icon">
+                                    <i class="fas fa-bug"></i>
+                                </div>
+                                <div class="project-status">
+                                    <span class="status-badge completed">Completed</span>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">E-Bug Tracker System</h3>
+                                <p class="project-role">Developer/Team Lead</p>
+                                <p class="project-duration">Mar 2022 - May 2022</p>
+                                
+                                <p class="project-description">
+                                    Comprehensive bug tracking system that revolutionized project management and feedback processes for Capgemini L&D team.
+                                </p>
+
+                                <div class="project-features">
+                                    <h5>Key Features</h5>
+                                    <ul>
+                                        <li>Real-time bug reporting and tracking</li>
+                                        <li>Role-based access control system</li>
+                                        <li>Automated email notifications and alerts</li>
+                                        <li>Advanced reporting and analytics dashboard</li>
+                                        <li>Integration with development workflows</li>
+                                        <li>Multi-project support with custom workflows</li>
+                                    </ul>
+                                </div>
+
+                                <div class="project-impact">
+                                    <h5>Impact & Achievements</h5>
+                                    <div class="impact-metrics">
+                                        <div class="impact-metric">
+                                            <span class="metric-value">25%</span>
+                                            <span class="metric-label">Faster Resolution</span>
+                                        </div>
+                                        <div class="impact-metric">
+                                            <span class="metric-value">35%</span>
+                                            <span class="metric-label">User Satisfaction</span>
+                                        </div>
+                                        <div class="impact-metric">
+                                            <span class="metric-value">60%</span>
+                                            <span class="metric-label">Less Manual Work</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="project-tech">
+                                    <h5>Technology Stack</h5>
+                                    <div class="tech-stack">
+                                        <span class="tech-tag">Java</span>
+                                        <span class="tech-tag">Spring Boot</span>
+                                        <span class="tech-tag">PostgreSQL</span>
+                                        <span class="tech-tag">REST API</span>
+                                        <span class="tech-tag">Maven</span>
+                                        <span class="tech-tag">SonarQube</span>
+                                        <span class="tech-tag">AWS EC2</span>
+                                    </div>
+                                </div>
+
+                                <div class="project-links">
+                                    <a href="https://github.com/GouravVashistha/e-bug-tracker" target="_blank" class="project-link">
+                                        <i class="fab fa-github"></i> View Code
+                                    </a>
+                                    <button class="project-link" onclick="openProjectModal('bug-tracker')">
+                                        <i class="fas fa-eye"></i> View Details
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 2: Vote Management System -->
+                        <div class="project-card" data-category="microservices" data-aos="fade-up" data-aos-delay="200">
+                            <div class="project-header">
+                                <div class="project-icon">
+                                    <i class="fas fa-vote-yea"></i>
+                                </div>
+                                <div class="project-status">
+                                    <span class="status-badge completed">Completed</span>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">Vote Management System</h3>
+                                <p class="project-role">Developer/Team Lead</p>
+                                <p class="project-duration">Nov 2021 - Jan 2022</p>
+                                
+                                <p class="project-description">
+                                    Scalable voting platform built with microservices architecture for secure and efficient elections.
+                                </p>
+
+                                <div class="project-features">
+                                    <h5>Key Features</h5>
+                                    <ul>
+                                        <li>7 independent microservices architecture</li>
+                                        <li>Real-time vote counting and results</li>
+                                        <li>Secure user authentication and authorization</li>
+                                        <li>Admin dashboard with comprehensive analytics</li>
+                                        <li>Automated notification system for updates</li>
+                                        <li>Multi-election support with custom configurations</li>
+                                    </ul>
+                                </div>
+
+                                <div class="project-impact">
+                                    <h5>Impact & Achievements</h5>
+                                    <div class="impact-metrics">
+                                        <div class="impact-metric">
+                                            <span class="metric-value">7</span>
+                                            <span class="metric-label">Microservices</span>
+                                        </div>
+                                        <div class="impact-metric">
+                                            <span class="metric-value">99.9%</span>
+                                            <span class="metric-label">Uptime</span>
+                                        </div>
+                                        <div class="impact-metric">
+                                            <span class="metric-value">100%</span>
+                                            <span class="metric-label">Scalable</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="project-tech">
+                                    <h5>Technology Stack</h5>
+                                    <div class="tech-stack">
+                                        <span class="tech-tag">Java</span>
+                                        <span class="tech-tag">Spring Boot</span>
+                                        <span class="tech-tag">React.js</span>
+                                        <span class="tech-tag">PostgreSQL</span>
+                                        <span class="tech-tag">Gradle</span>
+                                        <span class="tech-tag">REST API</span>
+                                        <span class="tech-tag">Microservices</span>
+                                    </div>
+                                </div>
+
+                                <div class="project-links">
+                                    <a href="https://github.com/GouravVashistha/vote-management" target="_blank" class="project-link">
+                                        <i class="fab fa-github"></i> View Code
+                                    </a>
+                                    <button class="project-link" onclick="openProjectModal('vote-system')">
+                                        <i class="fas fa-eye"></i> View Details
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 3: E-Commerce -->
+                        <div class="project-card" data-category="fullstack" data-aos="fade-up" data-aos-delay="400">
+                            <div class="project-header">
+                                <div class="project-icon">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                                <div class="project-status">
+                                    <span class="status-badge completed">Completed</span>
+                                </div>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="project-title">E-Commerce [Shop Goals]</h3>
+                                <p class="project-role">Developer/Designer</p>
+                                <p class="project-duration">Jun 2020 - Mar 2021</p>
+                                
+                                <p class="project-description">
+                                    Feature-rich e-commerce platform with integrated payment processing and inventory management.
+                                </p>
+
+                                <div class="project-features">
+                                    <h5>Key Features</h5>
+                                    <ul>
+                                        <li>Secure payment integration (Razorpay/Stripe)</li>
+                                        <li>Real-time product tracking and inventory</li>
+                                        <li>Dynamic inventory management system</li>
+                                        <li>User authentication and profile management</li>
+                                        <li>Comprehensive order management system</li>
+                                        <li>Shopping cart with persistent sessions</li>
+                                    </ul>
+                                </div>
+
+                                <div class="project-impact">
+                                    <h5>Impact & Achievements</h5>
+                                    <div class="impact-metrics">
+                                        <div class="impact-metric">
+                                            <span class="metric-value">1,000+</span>
+                                            <span class="metric-label">Products</span>
+                                        </div>
+                                        <div class="impact-metric">
+                                            <span class="metric-value">200+</span>
+                                            <span class="metric-label">Transactions</span>
+                                        </div>
+                                        <div class="impact-metric">
+                                            <span class="metric-value">&lt;3s</span>
+                                            <span class="metric-label">Load Time</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="project-tech">
+                                    <h5>Technology Stack</h5>
+                                    <div class="tech-stack">
+                                        <span class="tech-tag">Python</span>
+                                        <span class="tech-tag">Django</span>
+                                        <span class="tech-tag">JavaScript</span>
+                                        <span class="tech-tag">Bootstrap5</span>
+                                        <span class="tech-tag">SQL</span>
+                                        <span class="tech-tag">HTML5</span>
+                                        <span class="tech-tag">CSS3</span>
+                                    </div>
+                                </div>
+
+                                <div class="project-links">
+                                    <a href="https://github.com/GouravVashistha/shop-goals" target="_blank" class="project-link">
+                                        <i class="fab fa-github"></i> View Code
+                                    </a>
+                                    <button class="project-link" onclick="openProjectModal('ecommerce')">
+                                        <i class="fas fa-eye"></i> View Details
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- View More Section -->
+                    <div class="view-more-section">
+                        <h2>More Projects Coming Soon</h2>
+                        <p>I'm constantly working on new projects and exploring innovative technologies. Check back soon for more exciting developments!</p>
+                        <div class="coming-projects">
+                            <div class="coming-project">
+                                <i class="fas fa-brain"></i>
+                                <h4>AI-Powered Analytics Dashboard</h4>
+                                <p>Machine learning integration for business intelligence</p>
+                            </div>
+                            <div class="coming-project">
+                                <i class="fas fa-mobile-alt"></i>
+                                <h4>Mobile App Backend</h4>
+                                <p>Scalable API for mobile applications</p>
+                            </div>
+                            <div class="coming-project">
+                                <i class="fas fa-cloud"></i>
+                                <h4>Cloud-Native Solution</h4>
+                                <p>Kubernetes-based microservices platform</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Page -->
+        <section class="page" id="contact">
+            <div class="page-container">
+                <div class="page-header">
+                    <h1 class="page-title">Contact Me</h1>
+                    <p class="page-subtitle">Let's discuss your next project or opportunity</p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-intro">
+                        <div class="contact-photo">
+                            <div class="photo-placeholder">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                        </div>
+                        <div class="contact-intro-text">
+                            <h2>Let's Build Something Amazing Together</h2>
+                            <p>I'm always excited to discuss new opportunities, innovative projects, and potential collaborations. Whether you're looking for a dedicated developer, technical consultant, or someone to lead your next software initiative, I'd love to hear from you.</p>
+                            <div class="availability-status">
+                                <span class="status-indicator available"></span>
+                                <span>Currently available for new opportunities</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-main">
+                        <!-- Contact Form -->
+                        <div class="contact-form-section">
+                            <h3>Send Me a Message</h3>
+                            <form class="contact-form" id="contactForm">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="fullName" class="form-label">Full Name *</label>
+                                        <input type="text" id="fullName" name="fullName" class="form-control" required>
+                                        <span class="form-error" id="fullNameError"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email" class="form-label">Email Address *</label>
+                                        <input type="email" id="email" name="email" class="form-control" required>
+                                        <span class="form-error" id="emailError"></span>
+                                    </div>
+                                </div>
+                                
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label for="phone" class="form-label">Phone Number</label>
+                                        <input type="tel" id="phone" name="phone" class="form-control">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="company" class="form-label">Company/Organization</label>
+                                        <input type="text" id="company" name="company" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="subject" class="form-label">Subject/Topic *</label>
+                                    <select id="subject" name="subject" class="form-control" required>
+                                        <option value="">Select a topic</option>
+                                        <option value="job-opportunity">Job Opportunity</option>
+                                        <option value="freelance-project">Freelance Project</option>
+                                        <option value="consultation">Technical Consultation</option>
+                                        <option value="collaboration">Collaboration</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                    <span class="form-error" id="subjectError"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message" class="form-label">Message *</label>
+                                    <textarea id="message" name="message" class="form-control" rows="6" placeholder="Tell me about your project, requirements, or any questions you have..." required minlength="50"></textarea>
+                                    <span class="form-error" id="messageError"></span>
+                                    <span class="character-count">0/50 minimum characters</span>
+                                </div>
+
+                                <button type="submit" class="btn btn--primary btn--full-width form-submit">
+                                    <span class="btn-text">
+                                        <i class="fas fa-paper-plane"></i>
+                                        Send Message
+                                    </span>
+                                    <span class="btn-loading hidden">
+                                        <i class="fas fa-spinner fa-spin"></i>
+                                        Sending...
+                                    </span>
+                                </button>
+                            </form>
+                        </div>
+
+                        <!-- Contact Information -->
+                        <div class="contact-info-section">
+                            <h3>Contact Information</h3>
+                            
+                            <div class="contact-cards">
+                                <div class="contact-card">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <h4>Email</h4>
+                                        <p><a href="mailto:gvashistha4@gmail.com">gvashistha4@gmail.com</a></p>
+                                        <span class="contact-note">Primary contact method</span>
+                                    </div>
+                                </div>
+
+                                <div class="contact-card">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <h4>Phone</h4>
+                                        <p><a href="tel:+919518443458">+91-9518443458</a></p>
+                                        <span class="contact-note">Available 9 AM - 6 PM IST</span>
+                                    </div>
+                                </div>
+
+                                <div class="contact-card">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <h4>Location</h4>
+                                        <p>Bangalore, Karnataka, India</p>
+                                        <span class="contact-note">Open to remote work</span>
+                                    </div>
+                                </div>
+
+                                <div class="contact-card">
+                                    <div class="contact-icon">
+                                        <i class="fab fa-linkedin"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <h4>LinkedIn</h4>
+                                        <p><a href="https://www.linkedin.com/in/gourav-vashistha/" target="_blank">linkedin.com/in/gourav-vashistha</a></p>
+                                        <span class="contact-note">Professional networking</span>
+                                    </div>
+                                </div>
+
+                                <div class="contact-card">
+                                    <div class="contact-icon">
+                                        <i class="fab fa-github"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <h4>GitHub</h4>
+                                        <p><a href="https://github.com/GouravVashistha" target="_blank">github.com/GouravVashistha</a></p>
+                                        <span class="contact-note">Code portfolio</span>
+                                    </div>
+                                </div>
+
+                                <div class="contact-card response-time">
+                                    <div class="contact-icon">
+                                        <i class="fas fa-clock"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <h4>Response Time</h4>
+                                        <p>Within 24 hours</p>
+                                        <span class="contact-note">Usually much faster!</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="working-hours">
+                                <h4><i class="fas fa-business-time"></i> Working Hours</h4>
+                                <div class="hours-grid">
+                                    <div class="hours-item">
+                                        <span class="day">Monday - Friday</span>
+                                        <span class="time">9:00 AM - 6:00 PM IST</span>
+                                    </div>
+                                    <div class="hours-item">
+                                        <span class="day">Saturday</span>
+                                        <span class="time">10:00 AM - 2:00 PM IST</span>
+                                    </div>
+                                    <div class="hours-item">
+                                        <span class="day">Sunday</span>
+                                        <span class="time">Emergency only</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Section -->
+                    <div class="faq-section">
+                        <h3>Frequently Asked Questions</h3>
+                        <div class="faq-grid">
+                            <div class="faq-item">
+                                <h4><i class="fas fa-question-circle"></i> What's your preferred way to communicate about projects?</h4>
+                                <p>I prefer starting with email or LinkedIn for initial discussions, followed by video calls for detailed project planning and regular updates.</p>
+                            </div>
+                            <div class="faq-item">
+                                <h4><i class="fas fa-question-circle"></i> Are you available for remote work?</h4>
+                                <p>Yes, I'm fully equipped for remote work and have experience collaborating with distributed teams across different time zones.</p>
+                            </div>
+                            <div class="faq-item">
+                                <h4><i class="fas fa-question-circle"></i> What type of projects do you prefer?</h4>
+                                <p>I enjoy working on scalable backend systems, microservices architecture, and full-stack applications. I'm particularly interested in projects involving Java, Spring Boot, and cloud technologies.</p>
+                            </div>
+                            <div class="faq-item">
+                                <h4><i class="fas fa-question-circle"></i> How quickly can you start a new project?</h4>
+                                <p>Depending on my current commitments, I can typically start new projects within 1-2 weeks. For urgent projects, I can arrange for faster availability.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Alternative Contact Methods -->
+                    <div class="alternative-contact">
+                        <h3>Alternative Contact Methods</h3>
+                        <div class="alternative-methods">
+                            <div class="method-item">
+                                <i class="fas fa-video"></i>
+                                <h4>Video Call</h4>
+                                <p>Schedule a video meeting through Google Meet or Zoom</p>
+                            </div>
+                            <div class="method-item">
+                                <i class="fas fa-calendar"></i>
+                                <h4>Calendar Booking</h4>
+                                <p>Book a slot directly in my calendar for consultation</p>
+                            </div>
+                            <div class="method-item">
+                                <i class="fas fa-comments"></i>
+                                <h4>Social Media</h4>
+                                <p>Connect with me on LinkedIn for professional discussions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-section footer-about">
+                        <div class="footer-profile">
+                            <div class="footer-avatar-placeholder">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <div class="footer-info">
+                                <h3>Gourav Vashistha</h3>
+                                <p>Java & Spring Boot Developer</p>
+                                <span>Building scalable solutions with passion</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="footer-section footer-links">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home" data-page="home">Home</a></li>
+                            <li><a href="#about" data-page="about">About</a></li>
+                            <li><a href="#experience" data-page="experience">Experience</a></li>
+                            <li><a href="#projects" data-page="projects">Projects</a></li>
+                            <li><a href="#contact" data-page="contact">Contact</a></li>
+                            <li><a href="#" id="footerResume">Resume Download</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section footer-contact">
+                        <h4>Contact & Social</h4>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:gvashistha4@gmail.com">gvashistha4@gmail.com</a>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+919518443458">+91-9518443458</a>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Bangalore, India</span>
+                        </div>
+                        <div class="footer-social">
+                            <a href="https://www.linkedin.com/in/gourav-vashistha/" target="_blank" class="footer-social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/GouravVashistha" target="_blank" class="footer-social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <div class="footer-copyright">
+                        <p>&copy; 2025 Gourav Vashistha. All Rights Reserved.</p>
+                    </div>
+                    <div class="footer-bottom-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Use</a>
+                    </div>
+                    <div class="footer-made-with">
+                        <p>Made with <i class="fas fa-heart"></i> in Bangalore</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Background Particles -->
+    <canvas class="particles-canvas" id="particlesCanvas"></canvas>
+
+    <!-- Project Modal -->
+    <div class="modal hidden" id="projectModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle">Project Details</h3>
+                <button class="modal-close" id="modalClose">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body" id="modalBody">
+                <!-- Project details will be dynamically loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
